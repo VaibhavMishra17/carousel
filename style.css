@@ -9,7 +9,7 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-  bottom: 75%;
+  bottom: 83%;
 }
 
 .carousel-control-prev {
@@ -18,4 +18,28 @@
 
 .heading {
   display: inline-block;
+}
+
+.midder2 {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    color-stop(100%, #537fff),
+    color-stop(-3%, #1e26c2)
+  );
+}
+
+.midder1 {
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    color-stop(99%, #91b86f),
+    color-stop(-3%, #059b8b)
+  );
+}
+
+p {
+  display: inline;
 }
