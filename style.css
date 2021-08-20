@@ -1,0 +1,21 @@
+.card {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  bottom: 75%;
+}
+
+.carousel-control-prev {
+  left: 80%;
+}
+
+.heading {
+  display: inline-block;
+}
